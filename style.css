@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --marromChocolate: #8e4f23;
+    --marromfosco: #8c5f41;
+    --marromClaro: #d2b48c;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #777777;
+    --fundo-site: #EAEAEA;
+}
+
+body{
+    background-color: var(--fundo-site);
+}
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+}
+
+header>div.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 157px;
+    background-color: aqua;
+}
+
+.container-flex{
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
