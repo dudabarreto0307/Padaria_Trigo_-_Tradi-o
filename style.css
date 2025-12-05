@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 :root {
@@ -14,6 +15,18 @@
     --cinza: #777777;
     --fundo-site: #EAEAEA;
 }
+
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
 
 body {
     background-color: var(--fundo-site);
@@ -34,7 +47,7 @@ header>div.container-flex {
 
 .container-flex {
     width: 90%;
-    max-width: 1440px;  
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -43,25 +56,134 @@ header>div.container-flex {
     width: 155px;
 }
 
-.links{
+.links {
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
-.links a{
+.links a {
     font-size: 25px;
     color: #000000;
     text-decoration: none;
 }
 
-.links a:hover{
+.links a:hover {
     color: var(--chocolate);
     border-bottom: 1px solid var(--chocolate);
 }
 
-#icone-barras, 
+#icone-barras,
 #icone-x,
-#menu_botao{
+#menu_botao {
     display: none;
+}
+
+#bannerprincipal {
+    width: 100%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1200px;
+}
+
+/* ===========================ilustracoes============================================================= */
+
+#ilustracoes {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card-ilustracao {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-ilustracao>img {
+    width: 300px;
+}
+
+/* ==============================sobre nos===================================== */
+
+#bannerthayssa2 {
+    width: 45%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+/* ============================cardapio============================================= */
+
+#cardapiodoce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.salgado {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#cardapiosalgado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.doce {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+#cardapiobebidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.bebidas{
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h1,
+h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
