@@ -86,6 +86,10 @@ header>div.container-flex {
     height: 1200px;
 }
 
+#menu{
+
+}
+
 /* =======================================ILUSTRAÕES============================================================= */
 
 #ilustracoes {
@@ -109,6 +113,22 @@ header>div.container-flex {
 
 .card-ilustracao>img {
     width: 300px;
+}
+
+.card-ilustracao,
+.salgado,
+.doce,
+.bebidas {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer; 
+}
+
+.card-ilustracao:hover,
+.salgado:hover,
+.doce:hover,
+.bebidas:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
 }
 
 /* =========================================================SOBRE NÓS===================================== */
