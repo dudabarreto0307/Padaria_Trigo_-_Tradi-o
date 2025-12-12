@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --marromChocolate: #8e4f23;
+    --chocolate: #974209;
+    --marromfosco: #8c5f41;
+    --marromClaro: #d2b48c;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #777777;
+    --fundo-site: #EAEAEA;
+}
+
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+
+body {
+    background-color: var(--fundo-site);
+}
+
+/* HEADER */
+header {
+    width: 100%;
+}
+
+header>div.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 157px;
+    /* background-color: rgb(213, 150, 255); */
+}
+
+.container-flex {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+#logo {
+    width: 155px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.links a {
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--chocolate);
+    border-bottom: 1px solid var(--chocolate);
+}
+
+#icone-barras,
+#icone-x,
+#menu_botao {
+    display: none;
+}
+
+#bannerprincipal {
+    width: 100%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1200px;
+}
+
+/* =======================================ILUSTRAÕES============================================================= */
+
+#ilustracoes {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card-ilustracao {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-ilustracao>img {
+    width: 300px;
+}
+
+/* =========================================================SOBRE NÓS===================================== */
+
+#bannerthayssa2 {
+    width: 45%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+/* ==============================================CARDAPIO============================================= */
+
+#cardapiodoce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.salgado {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#cardapiosalgado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.doce {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+#cardapiobebidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.bebidas {
+    background-color: #d2b48c;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h1,
+h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* ==========================================AULAS DE PANIFICAÇÃO================================================== */
+ p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400PX;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+
+#imgpanificacao {
+    width: 100%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1200px;
+    margin-top: 50px;
+}
+
+/* ============================================================MISSÃO, VISÃO E VALORES======================================= */
+
+#valores{
+    padding: 50px 0; 
+}
+
+.cardsMVV {
+    width: 100%;
+    max-width: 2300px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    background-color: var(--marromClaro); 
+    padding: 50px 30px; 
+}
+
+.cardmvv {
+    flex-basis: 30%; 
+    text-align: center; 
+    padding: 0 15px; 
+}
+
+.cardmvv h2 {
+    font-size: 30px;
+    color: var(--preto);
+    margin-top: 0; 
+   
+   
+}
+
+.cardmvv p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0; 
+    text-align: center; 
+}

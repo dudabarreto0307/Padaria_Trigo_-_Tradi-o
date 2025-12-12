@@ -86,7 +86,7 @@ header>div.container-flex {
     height: 1200px;
 }
 
-/* ===========================ilustracoes============================================================= */
+/* =======================================ILUSTRAÕES============================================================= */
 
 #ilustracoes {
     /* background-color: aqua; */
@@ -111,7 +111,7 @@ header>div.container-flex {
     width: 300px;
 }
 
-/* ==============================sobre nos===================================== */
+/* =========================================================SOBRE NÓS===================================== */
 
 #bannerthayssa2 {
     width: 45%;
@@ -119,9 +119,31 @@ header>div.container-flex {
     object-fit: cover;
     height: 1000px;
     margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
 }
 
-/* ============================cardapio============================================= */
+#sobre-nos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    /* margin-top: 0 auto; */
+    max-width: 2900px;
+}
+
+
+/* .sobre-nos h1{
+    font-size: 50px;
+    margin-top: 50px;
+} */
+
+#sobre-nos p {
+    line-height: 1.6;
+    font-size: 30px;
+}
+
+/* ==============================================CARDAPIO============================================= */
 
 #cardapiodoce {
     display: flex;
@@ -170,7 +192,7 @@ header>div.container-flex {
     margin-top: 50px;
 }
 
-.bebidas{
+.bebidas {
     background-color: #d2b48c;
     height: 500px;
     width: 500px;
@@ -181,9 +203,66 @@ header>div.container-flex {
 }
 
 h1,
-h2{
+h2 {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+/* ==========================================AULAS DE PANIFICAÇÃO================================================== */
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400PX;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+
+#imgpanificacao {
+    width: 100%;
+    /* background-image: url(img/thayssa\ principal.jpg); */
+    object-fit: cover;
+    height: 1200px;
+    margin-top: 50px;
+}
+
+/* ============================================================MISSÃO, VISÃO E VALORES======================================= */
+
+#valores {
+    padding: 50px 0;
+}
+
+.cardsMVV {
+    width: 100%;
+    max-width: 2300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: var(--marromClaro);
+    padding: 50px 30px;
+}
+
+.cardmvv {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.cardmvv h2 {
+    font-size: 30px;
+    color: var(--preto);
+    margin-top: 0;
+
+
+}
+
+.cardmvv p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
 }
